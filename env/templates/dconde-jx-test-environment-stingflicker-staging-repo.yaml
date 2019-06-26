@@ -1,0 +1,13 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  name: dconde-jx-test-environment-stingflicker-staging
+spec:
+  org: dconde-jx-test
+  provider: https://github.com
+  providerName: github
+  repo: environment-stingflicker-staging
+  scheduler:
+    kind: Scheduler
+    name: dconde-jx-test-environment-stingflicker-staging-scheduler
