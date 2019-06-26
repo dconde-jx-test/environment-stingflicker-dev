@@ -22,8 +22,8 @@ spec:
     buildPackRef: master
     buildPackUrl: https://github.com/jenkins-x-buildpacks/jenkins-x-kubernetes.git
     defaultScheduler:
-      kind: ""
-      name: ""
+      kind: Scheduler
+      name: default-scheduler
     dockerRegistryOrg: apps-dev-229310
     envOrganisation: dconde-jx-test
     gitServer: https://github.com
